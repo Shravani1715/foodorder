@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FoodApplicaion</string>
+    <string name="create_table_order_id_integer_primary_key_name_text_items_integer_total_integer">CREATE TABLE order( _id INTEGER PRIMARY KEY,name TEXT, Items INTEGER,total INTEGER);</string>
+</resources>

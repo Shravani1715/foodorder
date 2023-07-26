@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text=" Food Order "
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextname"
+        android:layout_width="377dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:hint="Your Favourite Dish"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextitems"
+        android:layout_width="377dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Number of Items"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTexttotal"
+        android:layout_width="377dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Total"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        />
+
+    <ListView
+        android:id="@+id/listViewfood"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="5dp"
+        android:divider="@android:color/holo_red_light"
+
+        />
+
+</LinearLayout>
